@@ -15,7 +15,7 @@
         android:textSize="30sp"
         android:layout_marginTop="18dp"
         android:text="@string/islamiAR"
-        android:fontFamily="@font/nabi"
+        android:fontFamily="@font/jfflatregular"
         android:textColor="@color/light_black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

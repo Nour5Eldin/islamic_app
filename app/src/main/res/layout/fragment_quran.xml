@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:fontFamily="@font/nabi"
+        android:fontFamily="@font/jfflatregular"
         android:text="@string/islamiAR"
         android:textAlignment="center"
         android:textColor="@color/light_black"
