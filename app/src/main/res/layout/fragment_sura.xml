@@ -6,26 +6,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.SuraFragment"
     android:background="@drawable/backgroundlight">
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="30dp"
-        app:cardCornerRadius="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
-        <FrameLayout
-            android:id="@+id/FrameContainer"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
 
 
 
 
 
 
-    </androidx.cardview.widget.CardView>
 
 
 

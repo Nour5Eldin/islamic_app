@@ -6,20 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.RadioFragment"
     android:background="@drawable/backgroundlight">
-    <TextView
-        android:id="@+id/Islami"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:layout_marginTop="18dp"
-        android:text="@string/islamiAR"
-        android:fontFamily="@font/jfflatregular"
-        android:textColor="@color/light_black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+
     <ImageView
         android:id="@+id/radio_image"
         android:layout_width="wrap_content"
