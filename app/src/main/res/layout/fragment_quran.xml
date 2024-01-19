@@ -16,15 +16,68 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/TopLine"
         android:src="@drawable/screen"/>
+    <View
+        android:id="@+id/TopLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_margin="3dp"
+        android:background="@color/orange"
+        app:layout_constraintTop_toBottomOf="@id/quran_image"/>
+    <TextView
+        android:id="@+id/SuraName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SuraName"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/jfflatregular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/AyatNumber"
+        app:layout_constraintTop_toBottomOf="@id/TopLine"
+        app:layout_constraintBottom_toTopOf="@id/BottomLine"/>
+    <TextView
+        android:id="@+id/AyatNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NumberOfAyatt"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/jfflatregular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/SuraName"
+        app:layout_constraintTop_toBottomOf="@id/TopLine"
+        app:layout_constraintBottom_toTopOf="@id/BottomLine"/>
+
+    <View
+        android:id="@+id/BottomLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/orange"
+        android:layout_margin="3dp"
+        app:layout_constraintTop_toBottomOf="@id/SuraName"/>
+
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/hadith_RecycleView"
+        android:id="@+id/Quran_RecycleView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        tools:listitem="@layout/chapter_names_item_list"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/BottomLine"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/quran_image"
         app:layout_constraintBottom_toBottomOf="parent" />
 
+    <View
+        android:id="@+id/HorizontalLine"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TopLine" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.noureldin.holyquran.R
 
 
-class HadithFragment : Fragment() {
+class HadethFragment : Fragment() {
 
 
     override fun onCreateView(

@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.noureldin.holyquran.R
 import com.noureldin.holyquran.databinding.ActivityHomeBinding
-import com.noureldin.holyquran.fragment.HadithFragment
+import com.noureldin.holyquran.fragment.HadethFragment
 import com.noureldin.holyquran.fragment.QuranFragment
 import com.noureldin.holyquran.fragment.RadioFragment
 import com.noureldin.holyquran.fragment.TasbeehFragment
@@ -27,7 +27,7 @@ class HomeActivity : AppCompatActivity() {
                     true
                 }
                 R.id.hadithFragment ->{
-                    replaceFragment(HadithFragment())
+                    replaceFragment(HadethFragment())
                     true
                 }
                 R.id.tasbeehFragment ->{

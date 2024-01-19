@@ -17,4 +17,5 @@
     <string name="hadithTab">الاحاديث</string>
     <string name="SuraName">أسم السورة</string>
     <string name="NumberOfAyatt">عدد الأيات</string>
+    <string name="ahadethname">الأحاديث</string>
 </resources>
