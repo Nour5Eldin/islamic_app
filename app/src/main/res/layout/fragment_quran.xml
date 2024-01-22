@@ -11,11 +11,11 @@
     <ImageView
         android:id="@+id/quran_image"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintHeight_percent="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/TopLine"
         android:src="@drawable/screen"/>
     <View
@@ -62,13 +62,14 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/Quran_RecycleView"
+        android:id="@+id/Chapter_RecycleView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         tools:listitem="@layout/chapter_names_item_list"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/BottomLine"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
 
     <View

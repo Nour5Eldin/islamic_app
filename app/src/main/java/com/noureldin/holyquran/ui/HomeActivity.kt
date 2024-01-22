@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.noureldin.holyquran.R
 import com.noureldin.holyquran.databinding.ActivityHomeBinding
-import com.noureldin.holyquran.fragment.HadethFragment
+import com.noureldin.holyquran.fragment.HadeethFragment
 import com.noureldin.holyquran.fragment.QuranFragment
 import com.noureldin.holyquran.fragment.RadioFragment
 import com.noureldin.holyquran.fragment.TasbeehFragment
@@ -18,35 +18,31 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        startFragment(QuranFragment())
+        initListeners()
 
-        val bottomNavigationView = binding.bottomNavigationView
-        bottomNavigationView.setOnItemSelectedListener { item->
-            when(item.itemId){
-                R.id.quranFragment ->{
-                    replaceFragment(QuranFragment())
-                    true
-                }
-                R.id.hadithFragment ->{
-                    replaceFragment(HadethFragment())
-                    true
-                }
-                R.id.tasbeehFragment ->{
-                    replaceFragment(TasbeehFragment())
-                    true
-                }
-                R.id.radioFragment ->{
-                    replaceFragment(RadioFragment())
-                    true
-                }
-                else -> false
-
-            }
-        }
-        replaceFragment(QuranFragment())
     }
+    fun initListeners(){
+        binding.bottomNavigationView.setOnItemSelectedListener {
+            if (it.itemId == R.id.quranFragment){
+                startFragment(QuranFragment())
+            }else if (it.itemId == R.id.hadithFragment){
+                startFragment(HadeethFragment())
+            }else if (it.itemId == R.id.tasbeehFragment){
+                startFragment(TasbeehFragment())
+            }else if (it.itemId == R.id.radioFragment){
+                startFragment(RadioFragment())
+            }
 
-    private fun  replaceFragment(fragment: Fragment){
-        supportFragmentManager.beginTransaction().replace(R.id.fragmentContainer,fragment).commit()
+
+            return@setOnItemSelectedListener true
+        }
+    }
+    private fun startFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragmentContainer,fragment)
+            .commit()
+
     }
 
 
