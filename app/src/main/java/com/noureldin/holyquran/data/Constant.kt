@@ -2,7 +2,8 @@ package com.noureldin.holyquran.data
 
 abstract class Constant {
        companion object{
-               val CHAPTERS_NAMES = listOf("الفاتحه","البقرة","آل عمران"
+           val HADEETH = "Haseeth"
+           val CHAPTERS_NAMES = listOf("الفاتحه","البقرة","آل عمران"
                        ,"النساء","المائدة","الأنعام","الأعراف","الأنفال","التوبة","يونس","هود"
                        ,"يوسف","الرعد","إبراهيم","الحجر","النحل","الإسراء","الكهف","مريم"
                        ,"طه","الأنبياء","الحج","المؤمنون"

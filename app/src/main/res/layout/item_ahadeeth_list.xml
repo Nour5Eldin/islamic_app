@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/AhadeethNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/light_black"
+        android:textDirection="rtl"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/jfflatregular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="الحديث الأول" />
+    <View
+        android:id="@+id/TopLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="3dp"
+        android:background="@color/orange"
+       app:layout_constraintTop_toBottomOf="@id/AhadeethNameTv"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
