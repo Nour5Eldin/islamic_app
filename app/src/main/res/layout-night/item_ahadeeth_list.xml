@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="15dp"
+    android:background="@color/background"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <TextView
@@ -25,6 +26,7 @@
         android:layout_height="2dp"
         android:layout_margin="3dp"
         android:background="@color/orangeVariant"
-       app:layout_constraintTop_toBottomOf="@id/AhadeethNameTv"/>
+        app:layout_constraintTop_toBottomOf="@id/AhadeethNameTv"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

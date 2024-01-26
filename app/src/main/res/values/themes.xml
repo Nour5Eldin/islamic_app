@@ -2,11 +2,11 @@
     <!-- Base application theme. -->
     <style name="Theme.HolyQuran" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimary">@color/AppBarColor</item>
         <item name="colorPrimaryVariant">@color/orangeVariant</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorAccent">@color/black</item>
-        <item name="colorPrimaryDark">@color/light_black</item>
+        <item name="colorPrimaryDark">@color/TextColor</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>

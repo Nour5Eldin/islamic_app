@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#141A2E</color>
+    <color name="selectedIcon">#FACC1D</color>
+    <color name="AppBarColor">#141A2E</color>
+    <color name="orangeVariant">#FACC1D</color>
+    <color name="black">#FF000000</color>
+    <color name="TextColor">#FFFFFFFF</color>
+
+
+</resources>
