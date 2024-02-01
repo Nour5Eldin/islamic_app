@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.HolyQuran" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.HolyQuran" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/AppBarColor</item>
         <item name="colorPrimaryVariant">@color/AppBarColor</item>
@@ -14,7 +14,7 @@
 
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/AppBarColor</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>

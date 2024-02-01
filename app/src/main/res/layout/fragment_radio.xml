@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.RadioFragment"
-    android:background="@drawable/backgroundlight">
+    tools:background="@drawable/backgroundlight">
 
     <ImageView
         android:id="@+id/radio_image"
