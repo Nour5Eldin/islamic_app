@@ -5,7 +5,6 @@
         <item name="colorPrimary">@color/AppBarColor</item>
         <item name="colorPrimaryVariant">@color/AppBarColor</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorAccent">@color/black</item>
         <item name="colorPrimaryDark">@color/TextColor</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

@@ -3,11 +3,11 @@
 
     <item
         android:id="@+id/quranFragment"
-        android:icon="@drawable/noun_quran_2036869"
+        android:icon="@drawable/quran"
         android:title="@string/QuranAR"/>
     <item
         android:id="@+id/hadithFragment"
-        android:icon="@drawable/noun_open_book_5863365"
+        android:icon="@drawable/ahadeth"
         android:title="@string/HadithAR"/>
     <item
         android:id="@+id/tasbeehFragment"
@@ -15,7 +15,7 @@
         android:title="@string/TasbihAR"/>
     <item
         android:id="@+id/radioFragment"
-        android:icon="@drawable/noun_radio_2314705"
+        android:icon="@drawable/radio"
         android:title="@string/RadioAR"/>
 
 
