@@ -18,4 +18,6 @@
     <string name="SuraName">أسم السورة</string>
     <string name="NumberOfAyatt">عدد الأيات</string>
     <string name="ahadethname">الأحاديث</string>
+    <string name="radio_channel">Radio Channel</string>
+    <string name="radio_channel_description">to display radio player notifications</string>
 </resources>
