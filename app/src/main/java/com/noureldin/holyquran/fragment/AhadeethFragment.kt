@@ -11,11 +11,12 @@ import com.noureldin.holyquran.data.Constant
 import com.noureldin.holyquran.databinding.FragmentAhadeethBinding
 import com.noureldin.holyquran.model.HadeethModel
 import com.noureldin.holyquran.ui.AhadeethDetailsActivity
+import dagger.hilt.android.AndroidEntryPoint
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 
-
+@AndroidEntryPoint
 class AhadeethFragment : Fragment() {
 
     private lateinit var binding: FragmentAhadeethBinding

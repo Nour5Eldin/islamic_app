@@ -42,6 +42,7 @@
         app:itemIconSize="50dp"
         android:layout_marginTop="4dp"
         android:textAlignment="center"
+        android:layoutDirection="rtl"
         app:itemTextColor="@drawable/icon_selected"
         app:itemIconTint="@drawable/icon_selected"
         app:layout_constraintBottom_toBottomOf="parent"/>

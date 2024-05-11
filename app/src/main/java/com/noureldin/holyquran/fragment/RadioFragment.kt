@@ -20,11 +20,12 @@ import com.noureldin.holyquran.model.Radio
 import com.noureldin.holyquran.model.Response
 import com.noureldin.holyquran.service.MediaPlayerStateListener
 import com.noureldin.holyquran.service.PlayRadioService
+import dagger.hilt.android.AndroidEntryPoint
 import retrofit2.Call
 import retrofit2.Callback
 
 
-
+@AndroidEntryPoint
 class RadioFragment : Fragment() {
     lateinit var binding: FragmentRadioBinding
     val adapter = RadioAdapter()

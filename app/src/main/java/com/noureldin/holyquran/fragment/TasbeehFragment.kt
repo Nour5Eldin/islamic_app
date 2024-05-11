@@ -10,8 +10,9 @@ import android.widget.Button
 import android.widget.TextView
 import com.noureldin.holyquran.R
 import com.noureldin.holyquran.databinding.FragmentTasbeehBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class TasbeehFragment : Fragment() {
     private var _binding: FragmentTasbeehBinding? =null
     private val binding get() = _binding!!

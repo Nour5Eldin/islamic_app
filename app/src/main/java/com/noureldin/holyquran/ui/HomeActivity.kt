@@ -9,7 +9,9 @@ import com.noureldin.holyquran.fragment.AhadeethFragment
 import com.noureldin.holyquran.fragment.QuranFragment
 import com.noureldin.holyquran.fragment.RadioFragment
 import com.noureldin.holyquran.fragment.TasbeehFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
 

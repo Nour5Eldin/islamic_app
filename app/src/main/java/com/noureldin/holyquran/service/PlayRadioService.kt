@@ -14,8 +14,9 @@ import android.util.Log
 import android.widget.RemoteViews
 import androidx.core.app.NotificationCompat
 import com.noureldin.holyquran.R
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class PlayRadioService: Service() {
     override fun onBind(intent: Intent?): IBinder? {
         return MyBinder()

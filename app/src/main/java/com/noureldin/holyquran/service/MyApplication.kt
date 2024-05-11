@@ -7,7 +7,9 @@ import android.content.Context
 import android.graphics.Color
 import android.os.Build
 import com.noureldin.holyquran.R
+import dagger.hilt.android.HiltAndroidApp
 
+@HiltAndroidApp
 class MyApplication:Application() {
     companion object{
         val RADIO_PLAYER_NOTIFICATION_CHANNEL = "radio_channel"

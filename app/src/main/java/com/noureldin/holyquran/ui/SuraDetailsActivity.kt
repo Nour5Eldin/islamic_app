@@ -6,11 +6,12 @@ import android.util.Log
 import android.view.MenuItem
 import com.noureldin.holyquran.data.Constant
 import com.noureldin.holyquran.databinding.ActivitySuraDetailsBinding
+import dagger.hilt.android.AndroidEntryPoint
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 
-
+@AndroidEntryPoint
 class SuraDetailsActivity : AppCompatActivity() {
 
     lateinit var Binding: ActivitySuraDetailsBinding

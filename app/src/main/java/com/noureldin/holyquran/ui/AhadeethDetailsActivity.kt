@@ -8,7 +8,9 @@ import android.widget.ImageView
 import com.noureldin.holyquran.data.Constant
 import com.noureldin.holyquran.databinding.ActivityAhadeethDetailsBinding
 import com.noureldin.holyquran.model.HadeethModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AhadeethDetailsActivity : AppCompatActivity() {
     lateinit var binding: ActivityAhadeethDetailsBinding
     override fun onCreate(savedInstanceState: Bundle?) {

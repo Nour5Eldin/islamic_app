@@ -12,8 +12,9 @@ import com.noureldin.holyquran.data.QuranItem
 import com.noureldin.holyquran.databinding.ActivitySuraDetailsBinding
 import com.noureldin.holyquran.databinding.FragmentQuranBinding
 import com.noureldin.holyquran.ui.SuraDetailsActivity
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class QuranFragment : Fragment() {
     private lateinit var binding: FragmentQuranBinding
     private lateinit var chapterAdapter: ChaptersRecyclerAdapter
